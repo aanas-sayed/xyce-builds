@@ -1,18 +1,13 @@
 Xyce Build Scipts
 =================
 
-Scripts to build and install Xyce onto different OS.
+Scripts to build and install Xyce onto Debian with parallel simulatons enabled.
 
 .. Note: Only contains parallel builds at the moment as no real benefit of 
 having the serial build at the moment.
 
-Linux/Debian
+Usage
 ------------
-
-First ensure its executable:
-```
-sudo chmod +x ./linux_debian_*.sh 
-```
 
 For Debian operating systems, without an x-server, run `linux_debian_*.sh` as 
 root. This will run the script in the shell and the shell cannot be closed. 
